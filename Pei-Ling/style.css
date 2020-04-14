@@ -1,0 +1,19 @@
+img {
+    width: 100%;
+}
+
+* {
+    margin-top: 20;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px);
+    grid-gap: 10px;
+    background-color: none;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;    
+}
