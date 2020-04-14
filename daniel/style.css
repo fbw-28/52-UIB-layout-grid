@@ -2,4 +2,12 @@ img {
     width: 100%;
 }
 
-.container {}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px
+}
+
+.item {
+    object-fit: contain;
+}
