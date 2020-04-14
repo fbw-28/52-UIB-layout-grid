@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: repeat(3, 200px); */
+    grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px);
+    width: fit-content;
+    margin: 0 auto;
+    gap: 10px;
+    padding: 10px;
+    background: orange;
+}
